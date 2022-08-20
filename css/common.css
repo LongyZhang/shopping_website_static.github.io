@@ -191,9 +191,9 @@
 }
 
 .nav_left .dd {
-    display: none;
+    /* display: none; */
     width: 210px;
-    height: 465px;
+    height: 455px;
     background-color: #c81623;
     margin-top: 2px;
 }
@@ -205,8 +205,8 @@
 .nav_left .dd ul li {
 
     position: relative;
-    height: 38.75px;
-    line-height: 38.75px;
+    height: 37.9px;
+    line-height: 37px;
     margin-left: 2px;
     padding-left: 10px;
 }
@@ -226,10 +226,13 @@
 }
 
 .nav_left .dd ul li a:after {
-    float: right;
-    margin-right: 10px;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    color: #fff;
     font-family: 'icomoon';
-    content: "\e920";
+    content: '\e920';
+    font-size: 14px;
 
 }
 
@@ -249,5 +252,102 @@
 
 .footer {
     background-color: lightgrey;
-    height: 600px;
+    height: 415px;
+}
+
+.footer .top {
+    height: 80px;
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+}
+
+.footer .top ul li {
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-left: 35px;
+    /* background-color: pink; */
+}
+
+.footer .top ul li h5 {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background: url(../images/icons.png) -252px -3px;
+}
+
+.footer .top .top_desc {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer .middle {
+    height: 210px;
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer .middle .list {
+    float: left;
+    /* background-color: pink; */
+    padding-right: 50px;
+    width: 240px;
+    height: 210px;
+}
+
+.footer .middle .list ul li {
+    line-height: 25px;
+}
+
+.footer .middle .list ul li a {
+    font-size: 12px;
+}
+
+.footer .down {
+    position: relative;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer .down .box1 {
+
+    text-align: center;
+}
+
+.footer .down .box1 ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.footer .down .box1 ul li::after {
+    content: "|";
+    margin-left: 10px;
+}
+
+.footer .down .box1 ul li:last-child::after {
+    content: "";
+}
+
+.footer .down .box2 {
+
+    text-align: center;
+    margin-top: 10PX;
+}
+
+.footer .down .box2 ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .down .box2 ul li::after {
+    content: "/";
+    margin-left: 10px;
+}
+
+.footer .down .box2 ul li:last-child::after {
+    content: "";
 }

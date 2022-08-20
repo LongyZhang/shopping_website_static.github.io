@@ -1,0 +1,229 @@
+.main {
+    height: 980px;
+    height: 455px;
+    /* background-color: pink; */
+    margin-left: 210px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    background: url(../images/car.png) no-repeat;
+    background-position: center;
+}
+
+.focus .panel {
+    position: absolute;
+    bottom: 20px;
+    height: 20px;
+    width: 80px;
+    left: 50%;
+    margin-left: -30px;
+    /* background-color: aqua; */
+}
+
+.focus .panel ul li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.news_feed {
+    float: right;
+    width: 269px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid lightgrey;
+    /* background-color: pink; */
+}
+
+.news_hd {
+    height: 33px;
+    border: 1px dotted red;
+    line-height: 33px;
+    padding: 0 15px;
+}
+
+.news_hd h5 {
+    height: 33px;
+    float: left;
+    font-size: 14px;
+}
+
+.news_hd a {
+    float: right;
+    color: red;
+}
+
+.news_hd a::after {
+    content: "\e920";
+    font-family: 'icomoon';
+
+}
+
+.news_bd {
+    height: 132px;
+    border: 1px dotted red;
+
+    padding-left: 10px;
+
+
+}
+
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+}
+
+.services {
+    height: 209px;
+    border: 1px solid grey;
+    border-top: 0;
+    overflow: hidden;
+}
+
+
+
+.services ul li {
+    float: left;
+    width: 25%;
+    /* when you are using float, as long as you know how many box you need in the div, you can just precentage to display */
+    height: 70px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.services ul li:nth-child(4n) {
+    border-right: 0;
+}
+
+.services ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 10px;
+    background: url(../images/icons.png) -18px -16px;
+    /* background-color: pink; */
+
+}
+
+
+.bargain {
+    height: 81px;
+    background: url(../images/car1.png) no-repeat;
+    background-size: 269px 190px;
+    background-position: center;
+}
+
+.recom {
+    height: 163px;
+    background-color: pink;
+}
+
+.recom .recom_hd {
+    float: left;
+    width: 208px;
+    height: 163px;
+    background: url(../images/subaru.png) no-repeat;
+    background-size: 208px 163px;
+
+}
+
+.recom .recom_bd {
+    float: left;
+    width: 992px;
+    height: 163px;
+}
+
+.recom .recom_bd ul li:nth-child(2n) {
+    float: left;
+    width: 25%;
+    height: 163px;
+    /* background-color: orange; */
+    background: url(../images/car3.jpg) no-repeat;
+    background-size: 248px 163px;
+}
+
+.recom .recom_bd ul li:nth-child(2n-1) {
+    float: left;
+    width: 25%;
+    height: 163px;
+    /* background-color: orange; */
+    background: url(../images/car5.jpg) no-repeat;
+    background-size: 248px 163px;
+}
+
+.price_nav {
+    height: 30px;
+    line-height: 30px;
+}
+
+.price_nav .box1 {
+    float: left;
+    color: red;
+    font-size: 20px;
+}
+
+.price_nav .box2 {
+    float: right;
+}
+
+.price_nav .box2 ul li {
+    float: left;
+    padding-right: 20px;
+}
+
+.price_nav .box2 ul li::after {
+    content: "\e919";
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+
+
+.price_list {
+    height: 180px;
+    border: 1px solid skyblue;
+}
+
+.price_list ul li {
+    float: left;
+    width: 20%;
+    height: 180px;
+    text-align: center;
+}
+
+
+.price_list ul li:nth-child(2n) i {
+    display: block;
+    width: 240px;
+    height: 100px;
+    background: url(../images/impreza.png) no-repeat;
+}
+
+.price_list ul li:nth-child(2n-1) i {
+    display: block;
+    width: 240px;
+    height: 113px;
+    background: url(../images/outback.png) no-repeat;
+}
+
+.price_list ul li:nth-child(2n-1) p {
+    color: blue;
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+.price_list ul li:nth-child(2n) p {
+    color: blue;
+    font-size: 30px;
+    margin-top: 20px;
+}
