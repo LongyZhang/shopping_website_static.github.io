@@ -165,6 +165,7 @@
 .price_nav {
     height: 30px;
     line-height: 30px;
+    border-bottom: 2px solid red;
 }
 
 .price_nav .box1 {
@@ -180,6 +181,7 @@
 .price_nav .box2 ul li {
     float: left;
     padding-right: 20px;
+    color: red;
 }
 
 .price_nav .box2 ul li::after {
@@ -190,40 +192,69 @@
 
 
 .price_list {
-    height: 180px;
-    border: 1px solid skyblue;
+    height: 361px;
+    /* background-color: pink; */
 }
 
-.price_list ul li {
+.tab_list_item>div {
     float: left;
-    width: 20%;
-    height: 180px;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: white;
+}
+
+.col_210 ul {
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.col_210 ul li {
+    float: left;
     text-align: center;
+    line-height: 34px;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
 }
 
+.col_210 a img {
+    width: 210px;
+    height: 259px;
+}
 
-.price_list ul li:nth-child(2n) i {
+.col_329 {
+    width: 329px;
+}
+
+.col_329 a img {
+    width: 329px;
+    height: 361px;
+}
+
+.col_211 {
+    width: 211px;
+}
+
+.col_211 a img {
+    width: 211px;
+    height: 361px;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.col_219 a img {
+    width: 219px;
+    height: 361px;
+}
+
+.floor {
+    height: 30px;
+    width: 30px;
     display: block;
-    width: 240px;
-    height: 100px;
-    background: url(../images/impreza.png) no-repeat;
-}
-
-.price_list ul li:nth-child(2n-1) i {
-    display: block;
-    width: 240px;
-    height: 113px;
-    background: url(../images/outback.png) no-repeat;
-}
-
-.price_list ul li:nth-child(2n-1) p {
-    color: blue;
-    font-size: 30px;
-    margin-top: 7px;
-}
-
-.price_list ul li:nth-child(2n) p {
-    color: blue;
-    font-size: 30px;
-    margin-top: 20px;
 }

@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main_page {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid red;
+
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.register_area {
+    height: 522px;
+    border: 1px solid grey;
+}
+
+.register_area .register_hd {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid grey;
+    background-color: lightgrey;
+    padding: 0 20px;
+}
+
+.register_area .register_hd h3 {
+    float: left;
+}
+
+.register_area .register_hd p {
+    float: right;
+}
+
+.register_area .register_hd a {
+    float: right;
+    color: red;
+    margin-left: 10px;
+}
+
+.register_bd {
+    width: 600px;
+    margin: 0 auto;
+
+    margin-top: 50px;
+}
+
+.register_bd ul li {
+    margin-bottom: 20px;
+}
+
+.register_bd ul li input {
+    height: 40px;
+    width: 242px;
+    border: 1px solid #ccc;
+}
+
+.register_bd ul li label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.register_bd ul li .error {
+    color: red;
+}
+
+.error::before {
+    content: "\e904";
+    font-family: 'icomoon';
+}
+
+.register_bd ul li .checkbox {
+    margin-left: 120px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.register_bd ul li .agree {
+    display: inline-block;
+    width: 180px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.register_bd ul li .user {
+    color: red;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.register_bd ul li .user::before {
+    content: "\e91f";
+    font-family: 'icomoon';
+    line-height: 20px;
+
+}
+
+.register_bd ul li .user::after {
+    content: "\e920";
+    font-family: 'icomoon';
+    line-height: 20px;
+
+}
+
+.register_bd ul li button {
+    height: 40px;
+    width: 180px;
+    margin-left: 120px;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+
+.footer {
+    background-color: lightgrey;
+    height: 415px;
+}
+
+.footer .top {
+    height: 80px;
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+}
+
+.footer .top ul li {
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-left: 35px;
+    /* background-color: pink; */
+}
+
+.footer .top ul li h5 {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background: url(../images/icons.png) -252px -3px;
+}
+
+.footer .top .top_desc {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer .middle {
+    height: 210px;
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer .middle .list {
+    float: left;
+    /* background-color: pink; */
+    padding-right: 50px;
+    width: 240px;
+    height: 210px;
+}
+
+.footer .middle .list ul li {
+    line-height: 25px;
+}
+
+.footer .middle .list ul li a {
+    font-size: 12px;
+}
+
+.footer .down {
+    position: relative;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer .down .box1 {
+
+    text-align: center;
+}
+
+.footer .down .box1 ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.footer .down .box1 ul li::after {
+    content: "|";
+    margin-left: 10px;
+}
+
+.footer .down .box1 ul li:last-child::after {
+    content: "";
+}
+
+.footer .down .box2 {
+
+    text-align: center;
+    margin-top: 10PX;
+}
+
+.footer .down .box2 ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .down .box2 ul li::after {
+    content: "/";
+    margin-left: 10px;
+}
+
+.footer .down .box2 ul li:last-child::after {
+    content: "";
+}

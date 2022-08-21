@@ -1,0 +1,61 @@
+.car_list {
+    float: left;
+}
+
+.car_list ul li {
+    float: left;
+}
+
+.car_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.car_con {
+    float: right;
+}
+
+.car_con ul li {
+    float: left;
+}
+
+.car_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.car_con ul li:last-child a {
+    color: red;
+}
+
+.car_bd {
+    display: block;
+}
+
+.car_bd ul li {
+    float: left;
+    overflow: hidden;
+    margin-right: 5PX;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.car_bd ul li:hover {
+    border: 1px solid red;
+}
+
+
+.car_container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
